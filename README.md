@@ -1,16 +1,52 @@
-# mp_tictactoe
+# Multiplayer Tic Tac Toe
 
-A new Flutter project.
+A real-time multiplayer Tic Tac Toe game built with Flutter and Socket.IO.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Create and join game rooms
+- Real-time gameplay with Socket.IO
+- Cross-platform support (Android, iOS, Web)
+- Dark theme UI
+- Score tracking
+- Room ID sharing
+- Multiplayer support with XO gameplay
+- Responsive design
 
-A few resources to get you started if this is your first Flutter project:
+## Tech Stack
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Flutter for the frontend
+- Node.js + Express for the backend
+- Socket.IO for real-time communication
+- MongoDB for data persistence
+- Provider for state management
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+### Installation Steps
+
+1. Clone the repository:
+```bash
+git clone https://github.com/harshhsaini/flutter-mp-tic-tac-toe/edit/main/README.md
+cd mp_tictactoe
+```
+
+2. Install Flutter dependencies:
+```bash
+flutter pub get
+```
+
+3. Setup the server:
+```bash
+cd server
+npm install
+```
+
+4. Start the server:
+```bash
+npm start
+```
+
+5. Run the Flutter app:
+```bash
+flutter run
+```
